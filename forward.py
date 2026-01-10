@@ -63,7 +63,7 @@ async def my_event_handler(event):
         await asyncio.sleep(2) 
         
         # 3. ரிப்ளை அனுப்பு
-        await client.send_message(DEST_GROUP, '/ql2', reply_to=sent_msg)
+        await client.send_message(DEST_GROUP, '/ql1', reply_to=sent_msg)
         
         print("✅ Message forwarded and replied /ql2 successfully!")
         
